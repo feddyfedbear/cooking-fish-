@@ -1,9 +1,22 @@
 //Global Variables
 //
+int appWidth, appHeight;
 void setup() {
   //Display & Orientation
+  size(600, 400);
+  displayOrientation();
+  appWidth = width;
+  appHeight= height;
   //Population
   //Theme: i.e. Face
+  population();
+  faceSetup();
+  eyes();
+  mouth();
+  nose();
+  measles();
+  
+  
   //Background Image (could be in draw too)
 }//End setup
 //
